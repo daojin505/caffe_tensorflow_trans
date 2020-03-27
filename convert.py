@@ -33,7 +33,7 @@ def convert(def_path, caffemodel_path, data_output_path, code_output_path, phase
         if code_output_path:
             print_stderr('Saving source...')
             with open(code_output_path, 'wb') as src_out:
-                src_out.write(transformer.transform_source())
+                src_out.write(transformer.transform_source().encode())
         print_stderr('Done.')
     except KaffeError as err:
         fatal_error('Error encountered: {}'.format(err))
