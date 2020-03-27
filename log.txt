@@ -1,0 +1,8 @@
+[data_s0 (0x10aa1aa50),
+conv1 (0x10aa1aa90),
+conv1_bn (0x10aa1ab10),
+pool1 (0x10aa1ad10),
+conv2 (0x10aa1ad90),
+conv2_bn (0x10aa1ae10),
+pool2 (0x10aa1af90),
+resx1_conv1 (0x10aa1b050), resx1_conv1_bn (0x10aa1b0d0), resx1_conv2 (0x10aa1b250), resx1_conv2_bn (0x10aa1b2d0), resx1_conv3 (0x10aa1b490), resx1_conv3_bn (0x10aa1b510), resx1_match_conv (0x10aa1b610), resx1_match_conv_bn (0x10aa1b690), resx1_elewise (0x10aa1b790), resx1_elewise_relu (0x10aa1b810), resx2_conv1 (0x10aa1b890), resx2_conv1_bn (0x10aa1b990), resx2_conv2 (0x10aa1bbd0), resx2_conv2_bn (0x10aa1bcd0), resx2_conv3 (0x10aa1be50), resx2_conv3_bn (0x10aa1bed0), resx2_elewise (0x10aa1bfd0), resx2_elewise_relu (0x10aa1d090), conv3 (0x10aa1d110), conv4 (0x10aa1d290), conv5 (0x10aa1d410), conv6 (0x10aa1d510)]
